@@ -26,11 +26,13 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-M7NLR59</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+6Nj+4uiG0az5On/aXJx9wAAAAACAAAAAAAQZgAAAAEAACAAAACasJp6uUidp46D5pLyBOl7giDAcUTYP4VGdB5FFKqETQAAAAAOgAAAAAIAACAAAAAYbJyLUSulj6elIjbna9nRmEH/p5ilqbc9QCn2rYY1dpAAAAD5OUgpNdnyVH8QsNsfZnNCDneSua3pyrAdWrY4+3mP+gbkOMA/KIHlzc7xb41Z2tFQ5tha0OEA4EmDF9t9LVCGvLVF6hLgkxrgnSmsUyII0JgtOr78SppwqMHi2SKoZEFAOx+nh0/EnKuKn80M7X0WZduzygfmkjVUnpy2VHyp4ULQl4Kri/Guy8rsC+TzmglAAAAAe/pBd2RkrGjmWw5fT9jO38X6OSs4jvgvN+FZc8pWna/3vO3t7vjYwpuOmqImqu+k+es3YRDmnMn6k3LndJpwaA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+6Nj+4uiG0az5On/aXJx9wAAAAACAAAAAAAQZgAAAAEAACAAAAAz+DaGjXBiDcID2RQjcjwFlX4Dk5R4CG8JUoUlWFKKPwAAAAAOgAAAAAIAACAAAACrGoXMz8x4cQl0J2bTD1btFZqueyX1N0YTmilq70f1wJAAAAD/9p5DZsK4YyHKUHuCpmeNj7Td0xO6FfmSlBbUOi5gqQXILpvE01cgYkAmP5LyuZWSr01IPvOsZ8wpMDr0YPi00rdiJeMiwemDjNemhahnZ+pemOew6z16h8IgDZ7FmzUBFoWTlJ/G+5clOChGpVHfwe2qCBQ3Ufyv0qA5jLQJ/I9SUsp3zMsCxkxiazx1gFhAAAAA/rtHm6cCp5l6Njai3VjD9ytq92s+DlXOfaHRGYOmfvZ8AA8QO5u2LRRaASXSAs4FWn1LntuLO5pcREZxNHJbbg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Maatshapij.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Vlucht.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="192.168.2.150.VisionAirport_OLTP.sa.conmgr" />
@@ -64,7 +66,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=192.168.2.150;User ID=sa;Initial Catalog=VisionAirport_OLTP;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=192.168.2.150;User ID=sa;Initial Catalog=VisionAirport_OLTP;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -183,7 +185,7 @@
                 <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=192.168.2.150;User ID=sa;Initial Catalog=VisionAirport_DWH;Provider=SQLNCLI11.1;Auto Translate=False;</SSIS:Property>
+                <SSIS:Property SSIS:Name="Value">Data Source=192.168.2.150;User ID=sa;Initial Catalog=VisionAirport_DWH;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                 <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
@@ -278,16 +280,50 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Maatshapij.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{33BFC1B9-D970-405C-98D2-7B0C78FD5430}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8F598C9B-1CB2-4017-A1BA-956C03113667}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Vlucht.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{9E85B0B5-327F-405E-928A-0BFCC89CFC43}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{74239905-F657-47AA-A975-8560BAE3FCBD}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package1.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{1BCCE5D7-8F0E-4DD9-82DA-5F23D92A746F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{3142A770-9479-4D95-843E-C855AB41043D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{A89121C1-2D02-494B-B1F0-6FE0B12A3CE6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -318,7 +354,13 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2020-12-02T15:08:42.9580069Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
   </Configurations>
