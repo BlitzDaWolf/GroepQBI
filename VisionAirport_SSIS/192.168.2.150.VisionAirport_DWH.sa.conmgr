@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="192.168.2.150.VisionAirport_DWH.sa"
+  DTS:DTSID="{CA5842A5-A1B9-436E-BB90-76D89CEE5324}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=192.168.2.150;User ID=sa;Initial Catalog=VisionAirport_DWH;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+6Nj+4uiG0az5On/aXJx9wAAAAACAAAAAAAQZgAAAAEAACAAAADPVNOrcBIIlm0P5xuFDpU99JyN5bq9xdsxnT+0egXLXQAAAAAOgAAAAAIAACAAAAA/BnAxuPLmH09BOs508ajnJXp7creVrqiUjVqmIRaBXYAAAACNjCnWp/KfuNBBZitTSXeTMVUkeF/Bzqs7CZ1tAl/1rRfpaq0Bfbw/rO+kSSaZVuFER4m+h2toD8bVy7Tk4SxNBD4FUxlQgZHtyWbSRnpRDmSOqogKnQx+pwR0BENjzvmzYbi0bIhXHUtS1olMOPuaaA+mNQ3Xf6vN8f++ke+1iUAAAACjmIwREpciYexgjKo9jZwRBnaHMCs4Fhgin29qLrmi1t+CZgA5aV85hBl2E8s7w1Zi0Z9vXvCSuQ/Dgq2qkIkF</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
