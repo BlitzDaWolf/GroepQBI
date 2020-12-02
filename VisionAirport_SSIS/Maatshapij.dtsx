@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{8F598C9B-1CB2-4017-A1BA-956C03113667}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{5F0521ED-6D2F-41AA-BEAB-0EDA526A89A8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -89,8 +89,8 @@
               <connections>
                 <connection
                   refId="Package\DIM maatshcapijen\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{CA5842A5-A1B9-436E-BB90-76D89CEE5324}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[192.168.2.150.VisionAirport_DWH.sa]"
+                  connectionManagerID="{3161A295-865E-421D-9E5D-0268D2DF02DA}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[groepqbi.duckdns.org.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -206,8 +206,8 @@
               <connections>
                 <connection
                   refId="Package\DIM maatshcapijen\Source_Cleansed_Maatshapijen.Connections[OleDbConnection]"
-                  connectionManagerID="{7B71BA36-72FD-498E-B151-19BBE6B13103}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[192.168.2.150.VisionAirport_OLTP.sa]"
+                  connectionManagerID="{BDCB41E1-8A24-4485-9A3B-938AA2D0EB2A}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[groepqbi.duckdns.org.VisionAirport_OLTP.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -316,7 +316,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{CA5842A5-A1B9-436E-BB90-76D89CEE5324}"
+          SQLTask:Connection="{B324DB33-3D86-4835-B11E-2B9D2FA3410D}"
           SQLTask:SqlStatementSource="DELETE FROM [dbo].[dim_maatschappij]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>

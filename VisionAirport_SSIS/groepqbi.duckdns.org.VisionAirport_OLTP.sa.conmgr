@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:ObjectName="groepqbi.duckdns.org.VisionAirport_OLTP.sa"
-  DTS:DTSID="{B324DB33-3D86-4835-B11E-2B9D2FA3410D}"
+  DTS:DTSID="{BDCB41E1-8A24-4485-9A3B-938AA2D0EB2A}"
   DTS:CreationName="OLEDB">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=groepqbi.duckdns.org;User ID=sa;Initial Catalog=VisionAirport_OLTP;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=groepqbi.duckdns.org;User ID=sa;Initial Catalog=VisionAirport_OLTP;Provider=SQLNCLI11.1;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAN+/Y0GDTpkWEY9mnB4sjUgAAAAACAAAAAAAQZgAAAAEAACAAAACqk5P8joS0EMd3lQolirYuTPts2FMK0TqGuyKDE2ruswAAAAAOgAAAAAIAACAAAADHoesGUd1MVdTmBtuNGxs87Rn9ePF8gxKJ2caRYXvgy4AAAAA1qAneHDXuOydvKsjzHh7ZRu0sSyPrxCAOlv3qXG4KPhxaNp89Hy4HaL1JkKq37ZfDqQA9PkQksvjRM3oYNo1MQbiElQOggbP2+2Vfv7LmPZjY6dZlKX0z522hct9RJKD/1Lna4BwHlRqrkuZfu7GWXW2pNZPKUmIOIdRMKApKPkAAAACX3SOtf1S8AYIrKIvFY63QvQBoxB/H6WaLJuSovDcySSGqVFpdVVUEWWVkTbW4t3pdbO73dwhATY8N8uvb9uFa</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+6Nj+4uiG0az5On/aXJx9wAAAAACAAAAAAAQZgAAAAEAACAAAACHYuW+HbZj/my54K3MRe9nAG6WFX4QOAWHZGpjWkf0HgAAAAAOgAAAAAIAACAAAABkgj7PbpTk3NfUWrtnHaczciVw6ckZPzlko6RfpaRPYYAAAADFlNnjaGWLrbxokhY18yiGmsmlHB48tX2+JzQv4YavcRfGlyU+j15s+kVzeI1rRdskvp8RhPfps8yFJWSuzQAFj+EheqXxufo0mRNsdD+/Vf1pJzs3rMZr5E+MlychFtbeE65/51gT3O12djvGxEWqg23+4j37zzUSKv6qP/EYVkAAAAAuykh0tbEJlq9SywEUkaum7Y+l0v5BLnlwxZUgTkVjJxhJABaji6ZES9JirK1dwu+VdXwAvWRcHiYuEP3523cQ</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>

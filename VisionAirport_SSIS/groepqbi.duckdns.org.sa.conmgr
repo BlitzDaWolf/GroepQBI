@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="groepqbi.duckdns.org.sa"
+  DTS:DTSID="{3161A295-865E-421D-9E5D-0268D2DF02DA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=groepqbi.duckdns.org;User ID=sa;Initial Catalog=VisionAirport_DWH;Provider=SQLNCLI11.1;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+6Nj+4uiG0az5On/aXJx9wAAAAACAAAAAAAQZgAAAAEAACAAAAA6S03mtwY9qCFYxiEmOPflRUjCgOUdHnCcQIFKotMTcgAAAAAOgAAAAAIAACAAAAAgLWO55r6TaaNkN0bTnhVAxDu4ciZIEYUNwH07SgMS5YAAAADCLcLM7CYyUqNBCDORI1uqny9EjBv0LWXvTT6syJB3oT+TgYJWAJBZ82aRt7qhiAh0cWJ+P4bjwCgPxW0W+tScFbwjfgREVHE15cYygXli8z+ZAeMLxQxRulnIjN+8bI5nDSlzd0/+8DmaNnQZx1iV3sTywkaHC/bk42ad/VeLJEAAAABjvCyREIzBSFsa0xayjVX2Cv5HKsb2BAz4EdfHUwHaXjIF8RuOvBnsdHwNHYGjbkYf6RxQeNR9rOW/C0AkPk0c</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
